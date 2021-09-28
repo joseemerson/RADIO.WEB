@@ -21,7 +21,8 @@ export default function Home() {
     volume,
     configvolume,
     configTime
-  } = useContext (HomeContext);    
+  } = useContext (HomeContext); 
+     
   return (
     <div className={styles.container}>
         <h1>BEM VINDO A NOSSA RADIO WEB DEIXE SEU LIKE <ThumbUpIcon/> </h1>
